@@ -18,11 +18,16 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         //did appear
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
    
 
